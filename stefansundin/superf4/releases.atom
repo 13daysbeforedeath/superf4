@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:https://github.com/stefansundin/superf4/releases</id>
+  <link type="text/html" rel="alternate" href="https://github.com/stefansundin/superf4/releases"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/stefansundin/superf4/releases.atom"/>
+  <title>Release notes from superf4</title>
+  <updated>2019-02-16T22:16:48Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Repository/15859512/v1.4</id>
+    <updated>2019-02-16T22:29:45Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/stefansundin/superf4/releases/tag/v1.4"/>
+    <title>v1.4</title>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;Fixed keyboard input lag. Thanks to Victor Robertson (&lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/vmrob/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/vmrob&quot;&gt;@vmrob&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Do not enter xkill mode if Ctrl key is pressed. Ctrl+Win+F4 is a new shortcut to close virtual desktops, so we don&#39;t want to prevent that. Thanks to José Rebelo (&lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/joserebelo/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/joserebelo&quot;&gt;@joserebelo&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Add a process blacklist, with &lt;code&gt;explorer.exe&lt;/code&gt; in the list by default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I apologize for my tardiness. I use Windows less and less every year, and I must confess that I have not even been running my own programs when I do. I hope this release makes up for it somewhat. Sorry! Let me know of any new problems by opening issues.&lt;/p&gt;</content>
+    <author>
+      <name>stefansundin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1991151?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/15859512/v1.3</id>
+    <updated>2015-08-23T22:40:55Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/stefansundin/superf4/releases/tag/v1.3"/>
+    <title>SuperF4 v1.3</title>
+    <content type="html">&lt;p&gt;2015-08-23:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Moved website to GitHub.&lt;/li&gt;
+&lt;li&gt;Updated the installer to install to &lt;code&gt;APPDATA&lt;/code&gt; by default. It no longer asks for administrator privileges.&lt;/li&gt;
+&lt;li&gt;Added the ability to elevate SuperF4. You need this to kill programs running with administrator privileges.&lt;/li&gt;
+&lt;li&gt;Removed update checker.&lt;/li&gt;
+&lt;li&gt;Removed all translations.&lt;/li&gt;
+&lt;li&gt;Removed the ability to hide the tray icon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The reason why I am removing so many features is because I want to make the code cleaner and more compact.&lt;/p&gt;</content>
+    <author>
+      <name>stefansundin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1991151?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/15859512/v1.2</id>
+    <updated>2014-12-30T22:13:12Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/stefansundin/superf4/releases/tag/v1.2"/>
+    <title>SuperF4 v1.2</title>
+    <content type="html">&lt;p&gt;2010-10-23:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added 64-bit executable. The installer will automatically install the correct executable.&lt;/li&gt;
+&lt;li&gt;Added support for alternative Ctrl+Alt+F4 detection (see &lt;code&gt;SuperF4.ini&lt;/code&gt;). Enable this to make SuperF4 work in StarCraft II.&lt;/li&gt;
+&lt;li&gt;Added xkill to the tray menu (Win+F4).&lt;/li&gt;
+&lt;li&gt;Added manual update check to the tray menu.&lt;/li&gt;
+&lt;li&gt;Fixed the Shell_NotifyIcon error that appeared for some when SuperF4 was on autostart.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <author>
+      <name>stefansundin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1991151?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/15859512/v1.1</id>
+    <updated>2014-12-30T22:12:37Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/stefansundin/superf4/releases/tag/v1.1"/>
+    <title>SuperF4 v1.1</title>
+    <content type="html">&lt;p&gt;2009-08-19:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed mouse cursor not changing when pressing Win+F4 if Aero was disabled in Vista.&lt;/li&gt;
+&lt;li&gt;Mouse cursor now spans multiple monitors.&lt;/li&gt;
+&lt;li&gt;Language can now be changed in &lt;code&gt;SuperF4.ini&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;A lot of small bug fixes.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <author>
+      <name>stefansundin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1991151?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/15859512/v1.0</id>
+    <updated>2014-12-30T22:10:15Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/stefansundin/superf4/releases/tag/v1.0"/>
+    <title>SuperF4 v1.0</title>
+    <content type="html">&lt;p&gt;2009-01-12:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Requests &lt;code&gt;SeDebugPrivilege&lt;/code&gt; in a more secure way.&lt;/li&gt;
+&lt;li&gt;Merged &lt;code&gt;hooks.dll&lt;/code&gt; into &lt;code&gt;SuperF4.exe&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The mouse cursor now changes when you press Win+F4.&lt;/li&gt;
+&lt;li&gt;Removed log file.&lt;/li&gt;
+&lt;li&gt;Added update checking.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <author>
+      <name>stefansundin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1991151?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/15859512/v0.9</id>
+    <updated>2014-12-30T22:09:47Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/stefansundin/superf4/releases/tag/v0.9"/>
+    <title>SuperF4 v0.9</title>
+    <content type="html">&lt;p&gt;2008-10-12:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can now kill a process by pressing Win+F4 and then clicking the window with your mouse. Note that the mouse cursor does not change to reflect that SuperF4 is in this mode. You can press escape or the right mouse button to exit this mode without killing a program.&lt;/li&gt;
+&lt;li&gt;Renamed &lt;code&gt;keyhook.dll&lt;/code&gt; to &lt;code&gt;hooks.dll&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Renamed log file to &lt;code&gt;superf4-log.txt&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <author>
+      <name>stefansundin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1991151?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/15859512/v0.8</id>
+    <updated>2014-12-30T22:09:12Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/stefansundin/superf4/releases/tag/v0.8"/>
+    <title>SuperF4 v0.8</title>
+    <content type="html">&lt;p&gt;2008-09-16:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Made the detection of Ctrl+Alt+F4 more secure, preventing faulty kills which could happen when SuperF4 didn&#39;t receive the keyup of the F4 key.&lt;/li&gt;
+&lt;li&gt;Only one instance of SuperF4 can now be run. Starting SuperF4 again will make the first instance add its tray icon if hidden.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <author>
+      <name>stefansundin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1991151?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/15859512/v0.7</id>
+    <updated>2014-12-30T22:08:52Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/stefansundin/superf4/releases/tag/v0.7"/>
+    <title>SuperF4 v0.7</title>
+    <content type="html">&lt;p&gt;2008-05-11:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Keyhook now tries to get the &lt;code&gt;SeDebugPrivilege&lt;/code&gt; privilege if &lt;code&gt;OpenProcess&lt;/code&gt; fails, should be able to kill more programs.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <author>
+      <name>stefansundin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1991151?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/15859512/v0.6</id>
+    <updated>2014-12-30T22:08:28Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/stefansundin/superf4/releases/tag/v0.6"/>
+    <title>SuperF4 v0.6</title>
+    <content type="html">&lt;p&gt;2008-03-15:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Small fix to prevent the key pressed from being propagated to another window after terminating the process.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <author>
+      <name>stefansundin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1991151?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/15859512/v0.5</id>
+    <updated>2014-12-30T22:08:15Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/stefansundin/superf4/releases/tag/v0.5"/>
+    <title>SuperF4 v0.5</title>
+    <content type="html">&lt;p&gt;2008-03-05:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed a rare case where SuperF4 would kill a program when the user pressed Alt+F4.&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <author>
+      <name>stefansundin</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1991151?s=60&amp;v=4"/>
+  </entry>
+</feed>

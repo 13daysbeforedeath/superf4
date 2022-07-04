@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>SuperF4</title>
+
+  <meta charset="utf-8">
+  <meta name="author" content="Stefan Sundin">
+  <meta name="description" content="Kill programs instantly with Ctrl+Alt+F4.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta property="og:site_name" content="SuperF4">
+  <meta property="og:title" content="SuperF4">
+  <meta property="og:description" content="Kill programs instantly with Ctrl+Alt+F4.">
+  <meta property="og:url" content="https://stefansundin.github.io/superf4/">
+  <meta property="og:image" content="https://stefansundin.github.io/superf4/img/icon256.png">
+
+  <link rel="canonical" href="index.htm">
+  <link rel="icon" href="img/icon32.png">
+  <link rel="stylesheet" href="../bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha384-pdapHxIh7EYuwy6K7iE41uXVxGCXY0sAjBzaElYGJUrzwodck3Lx6IE2lA0rFREo" crossorigin="anonymous">
+  <link rel="stylesheet" href="../bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="alternate" type="application/atom+xml" href="feed.xml" title="SuperF4 news">
+  <link rel="alternate" type="application/atom+xml" href="../stefansundin/superf4/releases.atom" title="SuperF4 release feed">
+  <link rel="license" href="https://www.gnu.org/licenses/gpl-3.0.html" title="GNU GPL v3 or later">
+  <script src="js/github-btn.js"></script>
+  <link rel="stylesheet" href="css/github-btn.css">
+</head>
+
+<body class="pad">
+  <header>
+    <img src="img/icon128.png" width="128" height="128" alt="SuperF4 Icon" itemprop="image">
+    <h1 itemprop="name">SuperF4</h1>
+    <h2 itemprop="description">Kill programs instantly with Ctrl+Alt+F4.</h2>
+  </header>
+
+  <div class="text-center hidden" id="os-warning">
+    <h3><strong>Note:</strong> SuperF4 is a Windows only application!</h3>
+  </div>
+
+  <div class="buttons btn-group-lg">
+    <a class="btn btn-primary" href="../github-production-release-asset-2e65be/15859512/SuperF4-1.5.exe" track="download"><span class="glyphicon glyphicon-download-alt"></span> Download v1.5 Beta</a>
+    <a class="btn btn-default" href="../github-production-release-asset-2e65be/15859512/SuperF4-1.4-64bit.zip" track="download"><span class="glyphicon glyphicon-send"></span> Portable 64-bit</a>
+    <a class="btn btn-default" href="../github-production-release-asset-2e65be/15859512/SuperF4-1.4-32bit.zip" track="download"><span class="glyphicon glyphicon-send"></span> Portable 32-bit</a>
+    <a target="_blank" class="btn btn-default" href="https://github.com/stefansundin/superf4/releases"><span class="glyphicon glyphicon-list"></span> Changelog</a>
+  </div>
+
+  <div class="container">
+    <h2 id="donate">Donate</h2>
+
+    <p>SuperF4 is free software and a one-man endeavor. If you find it useful, please make a donation. I greatly appreciate any support!</p>
+
+    <form method="post" action="https://www.paypal.com/cgi-bin/webscr" track="donate" target="_blank" class="form-inline">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="KYMVEK692RF5Q">
+      <input type="hidden" name="item_name" value="SuperF4 v1.4">
+      <input type="hidden" name="item_number" value="SuperF4 v1.4">
+      <input type="hidden" name="no_shipping" value="1">
+      <input type="hidden" name="return" value="https://stefansundin.github.io/thx">
+      <input type="hidden" name="cbt" value="Learn why you just became awesome">
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-addon">$</div>
+          <input type="hidden" name="currency_code" value="USD">
+          <input class="form-control" type="text" name="amount" value="5.00" pattern="\d+\.?\d*" placeholder="Amount">
+        </div>
+      </div>
+      <input class="btn btn-success" type="submit" value="Donate with PayPal">
+    </form>
+
+    <p>You can also support me through <a target="_blank" href="https://github.com/sponsors/stefansundin">GitHub Sponsorship</a> (there are perks), or through <a target="_blank" href="https://www.patreon.com/stefansundin">Patreon</a>.</p>
+
+    <p><small><a class="expander" expand="donation-options">Show other donation options: Bitcoin.</a></small></p>
+    <div id="donation-options">
+      <p>Other donation options:</p>
+      <ul>
+        <li>Bitcoin: <tt>1EhDUbc5MjC6JavC6idKiTCxnqSxY2sbTX</tt> (<a target="_blank" href="img/btc-qr.png">QR code</a>)</li>
+      </ul>
+      <p>Contact me at <a target="_blank" fubar="">stefaNStefansundinCom</a> if none of the above work.</p>
+    </div>
+
+
+    <h2 id="intro">What is SuperF4?</h2>
+
+    <p>SuperF4 kills the foreground program when you press Ctrl+Alt+F4. This is different from when you press Alt+F4. When you press Alt+F4, the program can refuse to quit. Windows only asks the program to quit, and lets it decide for itself what to do.</p>
+
+    <p>You can also kill a program by pressing Win+F4 and then clicking the window with your mouse cursor. You can press escape or the right mouse button to exit this mode without killing a program.</p>
+
+    <p>Some games have anti-keylogger protection, which may prevent SuperF4 from working (it can't detect when you press Ctrl+Alt+F4). You can enable <tt>TimerCheck</tt> to use an alternate detection method.</p>
+
+
+    <h2 id="news">News <a target="_blank" href="feed.xml"><img src="img/feed.png" alt="RSS feed"></a></h2>
+
+    
+    <p id="news-2019-02-16"><strong>2019-02-16 - SuperF4 v1.4 released</strong></p>
+    <div class="post-body"><p>Released 1.4.</p>
+
+<ul>
+  <li>Fixed keyboard input lag. Thanks to Victor Robertson.</li>
+  <li>Do not enter xkill mode if Ctrl key is pressed. Ctrl+Win+F4 is a new shortcut to close virtual desktops, so we don’t want to prevent that. Thanks to José Rebelo.</li>
+  <li>Add a process blacklist, with <tt>explorer.exe</tt> in the list by default.</li>
+</ul>
+
+<p>I apologize for my tardiness. I use Windows less and less every year, and I must confess that I have not even been running my own programs when I do. I hope this release makes up for it somewhat.</p>
+</div>
+    
+    <p id="news-2015-08-23"><strong>2015-08-23 - SuperF4 v1.3 released</strong></p>
+    <div class="post-body"><p>Released 1.3.</p>
+
+<p>The installer now defaults to install to the <tt>%APPDATA%</tt> directory, so it won’t ask for administrator privileges when you start it. If you want to install to <tt>Program Files</tt>, right-click the installer and select <tt>Run as administrator</tt>.</p>
+
+<p><strong>Due to this change in the installer, I recommend that you uninstall and install from scratch if you are upgrading from a previous version!</strong></p>
+
+<p>Lastly, I want to thank everyone who have donated. All support is greatly appreciated!</p>
+</div>
+    
+
+    <p>For an RSS feed with only new releases, use <a target="_blank" href="../stefansundin/superf4/releases.atom">the GitHub release feed</a>.</p>
+
+
+    <h2 id="support">Support</h2>
+
+    <p>Before reporting a bug, look through the <a target="_blank" href="https://github.com/stefansundin/superf4/issues">list of issues</a> on GitHub.</p>
+
+    <p>When reporting a bug, please specify what version of Windows you are using, and be sure to include any error message you might see.</p>
+
+
+    <h2 id="license">License</h2>
+
+    <p>SuperF4 is free software and licensed under <a target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.html">GNU GPL v3</a>. Get <a target="_blank" href="https://github.com/stefansundin/superf4">the source code</a> on GitHub.</p>
+
+    <p>You may redistribute SuperF4 on your own website, but please provide a link to this website on the same page. Please do not bundle SuperF4 together with toolbars or other annoying adware, or otherwise degrade the experience.</p>
+
+
+    <h2 id="credits">Credits</h2>
+
+    <p>Made by Stefan Sundin.</p>
+
+    <p>You can <a target="_blank" href="https://stefansundin.github.io/">browse my other projects</a>, or <a target="_blank" href="https://stefansundin.com/">visit my personal website</a>.</p>
+  </div>
+
+  <script src="js/os-warning.js"></script>
+  <script src="js/ana.js"></script>
+  <script src="js/fubar.js"></script>
+  <script src="js/expander.js"></script>
+  <script src="js/paypal.js"></script>
+
+<footer class="container">
+  <div data-github-btn=""></div>
+</footer>
+
+</body>
+</html>

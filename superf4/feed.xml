@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://stefansundin.github.io/superf4/feed.xml</id>
+  <title>SuperF4</title>
+  <icon>https://stefansundin.github.io/superf4/img/icon32.png</icon>
+  <link href="https://stefansundin.github.io/superf4/feed.xml" rel="self" />
+  <link href="https://stefansundin.github.io/superf4/" rel="alternate" />
+  <link href="https://stefansundin.github.io/superf4/releases.atom" rel="related" />
+  <link href="https://stefansundin.github.io/superf4/tags.atom" rel="related" />
+  <link href="https://github.com//commits/master.atom" rel="related" />
+  <updated>2019-10-28T02:03:27+00:00</updated>
+  <author>
+    <name>Stefan Sundin</name>
+    <uri>https://stefansundin.com/</uri>
+  </author>
+
+  
+  <entry>
+    <id>https://stefansundin.github.io/superf4/#news-2019-02-16</id>
+    <title>SuperF4 v1.4 released</title>
+    <link href="https://stefansundin.github.io/superf4/#news-2019-02-16" />
+    <updated>2019-02-16T21:30:00+00:00</updated>
+    <author><name>Stefan Sundin</name></author>
+    <content type="html">&lt;p&gt;Released 1.4.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fixed keyboard input lag. Thanks to Victor Robertson.&lt;/li&gt;
+  &lt;li&gt;Do not enter xkill mode if Ctrl key is pressed. Ctrl+Win+F4 is a new shortcut to close virtual desktops, so we don’t want to prevent that. Thanks to José Rebelo.&lt;/li&gt;
+  &lt;li&gt;Add a process blacklist, with &lt;tt&gt;explorer.exe&lt;/tt&gt; in the list by default.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I apologize for my tardiness. I use Windows less and less every year, and I must confess that I have not even been running my own programs when I do. I hope this release makes up for it somewhat.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <id>https://stefansundin.github.io/superf4/#news-2015-08-23</id>
+    <title>SuperF4 v1.3 released</title>
+    <link href="https://stefansundin.github.io/superf4/#news-2015-08-23" />
+    <updated>2015-08-23T22:00:00+00:00</updated>
+    <author><name>Stefan Sundin</name></author>
+    <content type="html">&lt;p&gt;Released 1.3.&lt;/p&gt;
+
+&lt;p&gt;The installer now defaults to install to the &lt;tt&gt;%APPDATA%&lt;/tt&gt; directory, so it won’t ask for administrator privileges when you start it. If you want to install to &lt;tt&gt;Program Files&lt;/tt&gt;, right-click the installer and select &lt;tt&gt;Run as administrator&lt;/tt&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Due to this change in the installer, I recommend that you uninstall and install from scratch if you are upgrading from a previous version!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lastly, I want to thank everyone who have donated. All support is greatly appreciated!&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>
